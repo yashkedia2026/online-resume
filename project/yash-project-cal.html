@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+          content="Create and style a responsive online calculator using HTML, CSS, and JavaScript."/>
+    <link rel="stylesheet" type="text/css" href="yash-project-cal.css">
+    <title>Home | Calculator</title>
+</head>
+<body>
+<div id="page-wrapper">
+    <header>
+        <h1>Yash Kedia</h1>
+        <p>My Online Resume</p>
+    </header>
+    <div id="flex">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../education/yash-education.html">Education</a></li>
+                <li><a href="../work/yash-work.html">Work Experience</a></li>
+                <li><a href="../skills/yash-skills.html">Skills</a></li>
+                <li><a href="../project/yash-project-cal.html">Project</a></li>
+
+            </ul>
+        </nav>
+        <main>
+            <h2 class="pd">Project</h2>
+            <h2 class="pd"><a href="https://github.com/yashkedia2026">GitHub</a></h2>
+            <div id="calc">
+                <div id="user-input">
+                    <h4 class="pd">Calculator</h4>
+                    <label for="inputOne"></label><input id="inputOne" placeholder="First Number">
+                    <label for="inputTwo"></label><input id="inputTwo" placeholder="Second Number">
+                </div>
+
+                <div id="opp">
+                    <button onclick="addition()" class="button">+</button>
+                    <button onclick="subtraction()" class="button">-</button>
+                    <button onclick="multiplication()" class="button">*</button>
+                    <button onclick="division()" class="button">/</button>
+                    <button onclick="power()" class="button">**</button>
+                    <button onclick="clearVal()" id="clear">Clear</button>
+                </div>
+
+                <h3 id="output"></h3>
+            </div>
+        </main>
+    </div>
+
+<footer>
+    All rights reserved under <a href="../credits/yash-credits.html">Credits</a>&#169;
+</footer>
+</div>
+</body>
+<script src="yash-project-cal.js"></script>
+</html>
